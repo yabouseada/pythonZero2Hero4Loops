@@ -28,3 +28,33 @@ for item in  my_list :
     counter = counter + item
     print(counter)
 print('#####################################')
+#Ranges
+for number in range(0,100):
+    print(number)
+print('#####################################')
+for number in range(3):
+    print(list(range(10)))
+
+#enumeratem
+print('#####################################')
+for i,char in enumerate('helloooooo'):
+     print(i,char)
+print('#####################################')
+#while
+i=0
+while i < 50:
+    print(i)
+    i+=1
+else:
+    print('Done')
+print('#####################################')
+
+some_list = ['a','b','c','d','e','b','c']
+
+duplicate = []
+for value in some_list:
+    if some_list.count(value)>1:
+        if value not in duplicate:
+            duplicate.append(value)
+print(duplicate)
+
